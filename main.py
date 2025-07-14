@@ -1,10 +1,9 @@
-import random
-import sqlite3
-from typing import Union
-from pydantic import BaseModel, Field
 from fastapi import FastAPI
 
-app = FastAPI()
+app = FastAPI(
+    title="Let's find the answer",
+    description="A fun fortune-telling API that gives you random answers like a Magic 8 Ball."
+)
 
 answer_list = ["YES", "NO", "MAYBE"]
 
