@@ -1,3 +1,7 @@
+# 🧡 Let's play with api
+https://687a2c36abb83744b7ebbdfe.mockapi.io/api/bu-summar-camp
+
+
 # Magic-8ball game API
 
 The 8Ball game is a game that provides random answers, similar to the one found at https://magic-8ball.com/.
