@@ -21,7 +21,7 @@ def get_answer():
 
 
 @app.post("/8ball")
-def add_answer(new_answer: str):
+def add_answer(new_answer: Answer):
     ## TODO: Update list of answer with new_answer
     return answer_list
 
